@@ -1,3 +1,5 @@
+# Portfolio Celine Bonte 2019
+
 Connect to FTP: lftp ftp://miguelesquirol@miguelesquirol.com
 
 Download a directory with lftp, the wonderful command-line FTP and SFTP client, this is what you want:
@@ -29,3 +31,6 @@ More about this project at [BootstrapStarter](https://bootstrapstarter.com/boots
 gulp serve
 gulp
 
+
+
+git commit -m -a "added my github name"
