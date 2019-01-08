@@ -8610,9 +8610,6 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
-body {
-  background: red; }
-
 h1,
 h2,
 h3,
@@ -8621,6 +8618,9 @@ h5,
 p,
 li {
   font-family: 'Abel', sans-serif; }
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  min-width: 320px; }
 
 .flipper {
   margin: 40px 0px; }
@@ -8655,6 +8655,11 @@ li {
       padding: 0px; }
       .flipper .square-in ul li {
         list-style: none; }
+    .flipper .square-in h2 {
+      font-size: 20px; }
+      @media (min-width: 768px) {
+        .flipper .square-in h2 {
+          font-size: 24px; } }
 
 header .background {
   background-image: url(../img/bg.jpg);
@@ -8743,10 +8748,10 @@ footer .second {
   padding: 50px;
   background: #e5d3d3; }
   .text p,
-  .text h2 {
+  .text h1 {
     color: #474040;
     text-align: center; }
-  .text h2 {
+  .text h1 {
     font-size: 29px; }
   .text p {
     font-size: 18px;
