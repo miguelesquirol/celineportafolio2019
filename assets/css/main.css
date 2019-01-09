@@ -8659,11 +8659,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
         font-size: 12px; }
         @media (min-width: 576px) {
           .flipper .square-in ul li {
-            line-height: 16px;
+            line-height: 20px;
             font-size: 16px; } }
     .flipper .square-in h2 {
-      font-size: 20px; }
-      @media (min-width: 768px) {
+      font-size: 18px; }
+      @media (min-width: 576px) {
         .flipper .square-in h2 {
           font-size: 24px; } }
 
