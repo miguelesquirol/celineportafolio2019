@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/migueles/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/migueles/public_html/celinebonte2019/
+    - /bin/cp -r * $DEPLOYPATH
